@@ -1,0 +1,18 @@
+.contacts-icons {
+  align-items: center;
+  display: flex;
+}
+
+.contacts-icons__item {
+  list-style-type: none;
+}
+
+.contacts-icons__link {
+  display: inline-block;
+  pointer-events: all;
+
+}
+
+.contacts-icons__svg {
+pointer-events: all;
+}

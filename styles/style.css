@@ -1,0 +1,10 @@
+/* variables */
+@import url("variables.css");
+
+/* commons */
+@import url("page.css");
+
+/* blocks main */
+@import url("./blocks/page-main.css");
+@import url("./blocks/image-wrapper.css");
+@import url("./blocks/contacts-icons.css");

@@ -1,0 +1,25 @@
+:root {
+  /* Colors */
+
+  --white: #f9f9f9;
+  --grey: #828282;
+  --brown: #a6806b;
+  --red: #a61c1c;
+  --black: #000;
+  --text-white: #f2f2f2;
+
+  /* Fonts general */
+  --font-family: "Inter", sans-serif;
+
+  /* Fonts desktop */
+  --font-h1: 600 64px/110% "Inter";
+  --font-text: 300 18px/22px "Inter";
+
+  /* Fonts tablet */
+  --font-tablet-h1: 600 62px/110% "Inter";
+  --font-tablet-text: 300 16px/19px "Inter";
+
+  /* Fonts mobile */
+  --font-mobile-h1-1: 600 40px/110% "Inter";
+  --font-mobile-h1-2: 600 40px/110% "Inter";
+}

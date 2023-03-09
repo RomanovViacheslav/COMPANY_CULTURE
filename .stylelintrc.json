@@ -1,0 +1,29 @@
+{
+  "extends": "stylelint-config-standard",
+  "plugins": ["stylelint-order", "stylelint-scss"],
+  "rules": {
+    "order/order": [
+      "custom-properties",
+      "dollar-variables",
+      "at-rules",
+      "declarations",
+      {
+        "type": "at-rule",
+        "name": "media"
+      },
+      {
+        "type": "at-rule",
+        "name": "include"
+      }
+    ],
+    "selector-class-pattern": [
+      "^([a-z]+-)?[a-z0-9]+(__([a-z]+-)?[a-z0-9]+)?(--([a-z]+-)?[a-z0-9]+)?$",
+      {
+        "message": "Class names should follow BEM methodology"
+      }
+    ],
+    "order/properties-alphabetical-order": true,
+    "scss/at-rule-no-unknown": true,
+    "scss/selector-no-redundant-nesting-selector": true
+  }
+}
