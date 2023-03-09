@@ -1,18 +1,36 @@
 .contacts-icons {
   align-items: center;
   display: flex;
+  margin: 0;
+  padding: 0;
 }
 
 .contacts-icons__item {
   list-style-type: none;
+  padding-bottom: 48px;
+}
+
+.contacts-icons__item:not(:last-child) {
+  padding-right: 24px;
 }
 
 .contacts-icons__link {
-  display: inline-block;
-  pointer-events: all;
-
+  display: block;
 }
 
-.contacts-icons__svg {
-pointer-events: all;
+@media (max-width: 992px) {
+  .contacts-icons__item {
+    padding-bottom: 20px;
+  }
+}
+
+@media (max-width: 320px) {
+  .contacts-icons__item {
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+
+  .contacts-icons__svg {
+    height: 16px;
+  }
 }

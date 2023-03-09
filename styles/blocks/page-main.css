@@ -7,9 +7,13 @@
 }
 
 .page-main__cell--1 {
+  align-items: center;
   background: var(--white);
+  display: flex;
+  flex-direction: column;
   grid-column: 1 / span 7;
   grid-row: 1 / span 13;
+  justify-content: space-between;
 }
 
 .page-main__cell--2 {
@@ -269,5 +273,10 @@
   .page-main__cell--10 {
     grid-column: 2 / span 1;
     grid-row: 15 / span 2;
+  }
+
+  .page-main__title {
+    font: var(--font-mobile-h1-2);
+    margin-top: 36px;
   }
 }
